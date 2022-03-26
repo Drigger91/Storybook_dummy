@@ -1,0 +1,22 @@
+.button{
+    border : none;
+    color: white ;
+    border-radius: 2rem;
+    display : inline block;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1rem;
+}
+.primary{
+    background-color: rgb(31, 31, 252);
+}
+.success{
+    background-color: rgb(19, 180, 19);
+}
+.danger{
+    background-color: rgb(241, 30, 30);
+}
+.basic{
+    background-color: aliceblue;
+    color : rgb(0, 0, 0);
+}

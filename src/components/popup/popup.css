@@ -1,0 +1,31 @@
+.popup{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    border-radius: .25rem;
+    width : 500px;
+    height : 500px;
+    align-items: center;
+    color : white;
+    font-weight: bold;
+}
+.btn{
+    position: absolute;
+    right: 2rem;
+    top:1rem;
+}
+.none{
+    display: none;
+}
+.correct{
+    background-color: rgb(18, 219, 18);
+}
+.retry{
+    background-color: rgb(250, 27, 27);
+}
+.logical{
+    background-color: rgb(219, 219, 27);
+}
+.hint{
+    background-color: rgb(140, 40, 233);
+}

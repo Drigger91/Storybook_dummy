@@ -2,17 +2,24 @@
     display: flex;
     position: relative;
     justify-content: center;
-    border-radius: .25rem;
+    border-radius: .75rem;
     width : 500px;
     height : 500px;
     align-items: center;
     color : white;
     font-weight: bold;
 }
+.children{
+    margin:1rem;
+}
 .btn{
     position: absolute;
-    right: 2rem;
-    top:1rem;
+    right: 1.56rem;
+    top:.5rem;
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
 }
 .none{
     display: none;

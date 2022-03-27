@@ -1,11 +1,13 @@
 .button{
     border : none;
     color: white ;
-    border-radius: 2rem;
+    border-radius: 1rem;
     display : inline block;
     font-weight: bold;
     cursor: pointer;
     padding: 1rem;
+    font-family: monospace;
+
 }
 .primary{
     background-color: rgb(31, 31, 252);

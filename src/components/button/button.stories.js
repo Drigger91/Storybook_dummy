@@ -3,7 +3,10 @@ import Button from "./button";
 
 export default {
     title : "Button", //should be unique throughout the project,
-    component : Button
+    component : Button,
+    argTypes : {
+        onClick : { action : "clicked"}
+    }
 }
 
 //different stories
@@ -50,4 +53,10 @@ export const Basic  = ButtonTemplate.bind({});
 Basic.args = {
     variant : "basic",
     children : "Basic Button"
+}
+export const Log = ButtonTemplate.bind({})
+Log.args = {
+    variant : "primary",
+    children : "Log Button",
+    onClick : ()=>{console.log('Console Logged')}
 }

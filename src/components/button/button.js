@@ -4,7 +4,7 @@ function Button(props) {
     const{ variant, children , ...rest} = props;
   return (
     <div>
-        <button className={`button ${variant}`} onClick = {()=>{console.log('clicked')}} {...rest}>
+        <button className={`button ${variant}`} {...rest}>
                 {children}
         </button>
     </div>

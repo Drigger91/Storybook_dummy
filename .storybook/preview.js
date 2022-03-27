@@ -1,5 +1,5 @@
 import Center from "../src/components/center/center"
-
+import '@storybook/addon-console'
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   options: {
